@@ -1,0 +1,212 @@
+[
+	{
+		"id": 0,
+		"strainName": "Intelligent Wooden Shirt",
+		"strainType": "Indica",
+		"priceTier": "Premium",
+		"inventoryQuantity": 1
+	},
+	{
+		"id": 1,
+		"strainName": "Rustic Steel Tuna",
+		"strainType": "Indica",
+		"priceTier": "Featured",
+		"inventoryQuantity": 9
+	},
+	{
+		"id": 2,
+		"strainName": "Handmade Rubber Sausages",
+		"strainType": "Hybrid",
+		"priceTier": "Featured",
+		"inventoryQuantity": 5
+	},
+	{
+		"id": 3,
+		"strainName": "Practical Concrete Fish",
+		"strainType": "Indica",
+		"priceTier": "Featured",
+		"inventoryQuantity": 8
+	},
+	{
+		"id": 4,
+		"strainName": "Rustic Granite Shoes",
+		"strainType": "Sativa",
+		"priceTier": "Top",
+		"inventoryQuantity": 8
+	},
+	{
+		"id": 5,
+		"strainName": "Unbranded Rubber Fish",
+		"strainType": "Sativa",
+		"priceTier": "Premium",
+		"inventoryQuantity": 8
+	},
+	{
+		"id": 6,
+		"strainName": "Rustic Concrete Sausages",
+		"strainType": "Indica",
+		"priceTier": "Top",
+		"inventoryQuantity": 1
+	},
+	{
+		"id": 7,
+		"strainName": "Sleek Concrete Bike",
+		"strainType": "Indica",
+		"priceTier": "Premium",
+		"inventoryQuantity": 4
+	},
+	{
+		"id": 8,
+		"strainName": "Generic Cotton Towels",
+		"strainType": "Indica",
+		"priceTier": "Premium",
+		"inventoryQuantity": 0
+	},
+	{
+		"id": 9,
+		"strainName": "Refined Steel Ball",
+		"strainType": "Hybrid",
+		"priceTier": "Premium",
+		"inventoryQuantity": 4
+	},
+	{
+		"id": 10,
+		"strainName": "Generic Fresh Chair",
+		"strainType": "Hybrid",
+		"priceTier": "Featured",
+		"inventoryQuantity": 8
+	},
+	{
+		"id": 11,
+		"strainName": "Small Wooden Bacon",
+		"strainType": "Hybrid",
+		"priceTier": "Featured",
+		"inventoryQuantity": 4
+	},
+	{
+		"id": 12,
+		"strainName": "Refined Rubber Keyboard",
+		"strainType": "Hybrid",
+		"priceTier": "Featured",
+		"inventoryQuantity": 2
+	},
+	{
+		"id": 13,
+		"strainName": "Unbranded Wooden Chair",
+		"strainType": "Indica",
+		"priceTier": "Featured",
+		"inventoryQuantity": 10
+	},
+	{
+		"id": 14,
+		"strainName": "Small Cotton Bike",
+		"strainType": "Hybrid",
+		"priceTier": "Top",
+		"inventoryQuantity": 4
+	},
+	{
+		"id": 15,
+		"strainName": "Licensed Steel Hat",
+		"strainType": "Indica",
+		"priceTier": "Featured",
+		"inventoryQuantity": 10
+	},
+	{
+		"id": 16,
+		"strainName": "Ergonomic Concrete Chicken",
+		"strainType": "Sativa",
+		"priceTier": "Premium",
+		"inventoryQuantity": 0
+	},
+	{
+		"id": 17,
+		"strainName": "Small Plastic Ball",
+		"strainType": "Hybrid",
+		"priceTier": "Featured",
+		"inventoryQuantity": 5
+	},
+	{
+		"id": 18,
+		"strainName": "Ergonomic Plastic Chair",
+		"strainType": "Indica",
+		"priceTier": "Premium",
+		"inventoryQuantity": 10
+	},
+	{
+		"id": 19,
+		"strainName": "Practical Wooden Bike",
+		"strainType": "Indica",
+		"priceTier": "Top",
+		"inventoryQuantity": 7
+	},
+	{
+		"id": 20,
+		"strainName": "Handmade Fresh Bike",
+		"strainType": "Indica",
+		"priceTier": "Top",
+		"inventoryQuantity": 6
+	},
+	{
+		"id": 21,
+		"strainName": "Handcrafted Granite Gloves",
+		"strainType": "Indica",
+		"priceTier": "Premium",
+		"inventoryQuantity": 2
+	},
+	{
+		"id": 22,
+		"strainName": "Small Wooden Bacon",
+		"strainType": "Indica",
+		"priceTier": "Featured",
+		"inventoryQuantity": 3
+	},
+	{
+		"id": 23,
+		"strainName": "Rustic Wooden Gloves",
+		"strainType": "Sativa",
+		"priceTier": "Featured",
+		"inventoryQuantity": 4
+	},
+	{
+		"id": 24,
+		"strainName": "Fantastic Cotton Table",
+		"strainType": "Hybrid",
+		"priceTier": "Premium",
+		"inventoryQuantity": 0
+	},
+	{
+		"id": 25,
+		"strainName": "Fantastic Fresh Shoes",
+		"strainType": "Indica",
+		"priceTier": "Featured",
+		"inventoryQuantity": 2
+	},
+	{
+		"id": 26,
+		"strainName": "Handcrafted Metal Soap",
+		"strainType": "Hybrid",
+		"priceTier": "Featured",
+		"inventoryQuantity": 7
+	},
+	{
+		"id": 27,
+		"strainName": "Refined Wooden Chair",
+		"strainType": "Hybrid",
+		"priceTier": "Top",
+		"inventoryQuantity": 5
+	},
+	{
+		"id": 28,
+		"strainName": "Tasty Plastic Sausages",
+		"strainType": "Indica",
+		"priceTier": "Featured",
+		"inventoryQuantity": 9
+	},
+	{
+		"id": 29,
+		"strainName": "Fantastic Rubber Bike",
+		"strainType": "Sativa",
+		"priceTier": "Featured",
+		"inventoryQuantity": 4
+	}
+]
