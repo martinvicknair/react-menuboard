@@ -1,39 +1,48 @@
-import React, {Component} from "react";
+import React, { Component } from 'react';
+import FlowerList from '../utils/FlowerList';
+import axios from 'axios';
+// import './App.css';
+
+
+const FLOWER_LIST_URL = 'http://localhost:3001/flowers'
 
 class FlowerBoard extends Component {
-  constructor (props) {
+  constructor(props) {
     super(props);
+    this.timer = null;
     this.state = {
-      flowers: []
-    };
+      isFetching: false,
+      flowers: ['1']};
   }
-
-  componentDidMount() {
-    let url = "http://localhost:3001/flowers"
-    fetch(url)
-    .then(resp => resp.json())
-    .then(data => {
-      let flowers = data.map((flowers, index) => {
-        return (
-          <div key={index}>
-            <h3>{flowers.strainName}</h3>
-            <p>{flowers.strainType}</p>
-            <p>{flowers.priceTier}</p>
-            <p>{flowers.inventoryQuantity} ea</p>
-          </div>
-        )
-      })
-      this.setState({flowers:flowers})
-    })
-  }
-
   render() {
+    const title = 'Quotes for ya!'
     return (
-      <div className="FlowerBoard">
-        {this.state.flowers}
+      <div className='App'>
+        <h2 className='App-title'>{title}</h2>
+        <p>{this.state.isFetching ? 'Fetching quotes...' : ''}</p>
+        <FlowerList flowers={this.state.flowers} />
       </div>
     );
   }
+
+  componentDidMount() {
+    this.fetchFlowers()
+    this.timer = setInterval(() => this.fetchFlowers(), 8000);
+  }
+
+  componentWillUnmount() {
+    clearInterval(this.timer);
+  }
+
+  fetchFlowers = () => {
+    this.setState({...this.state, isFetching: true})
+    axios.get(FLOWER_LIST_URL)
+      .then(response => {
+        this.setState({flowers: response.data, isFetching: false})
+      })
+      .catch(e => console.log(e));
+  }
+
 }
 
 export default FlowerBoard
