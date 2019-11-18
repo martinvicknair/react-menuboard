@@ -27,7 +27,7 @@ class FlowerBoard extends Component {
 
   componentDidMount() {
     this.fetchFlowers()
-    this.timer = setInterval(() => this.fetchFlowers(), 8000);
+    // this.timer = setInterval(() => this.fetchFlowers(), 8000);
   }
 
   componentWillUnmount() {

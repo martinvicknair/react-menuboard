@@ -1,10 +1,8 @@
 import React from "react";
 // import '../utils/generateFlowers';
 
-const Home = () => (
-  <div>
-    hello
-  </div>
-);
+function Home(props) {
+  return <div>Home Page</div>;
+}
 
 export default Home;
