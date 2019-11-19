@@ -26,10 +26,10 @@ function App(props) {
           </li>
           </ul>
           <Route exact path="/" component={Home} />
+          <Route path="/flowerboard" component={FlowerBoard} />
           <Route path="/login" component={Login} />
           <Route path="/signup" component={Signup} />
           <PrivateRoute path="/admin" component={Admin} />
-          <PrivateRoute path="/flowerboard" component={FlowerBoard} />
         </div>
       </Router>
     </AuthContext.Provider>
